@@ -46,7 +46,7 @@ const Canvas2Image = (function () {
         // document.location.href = strData;
         let saveLink = document.createElement("a");
         // download file name
-        saveLink.download = fileName + "." + fileType;
+        saveLink.download = fileName;
         // download file data
         saveLink.href = strData;
         // start download
